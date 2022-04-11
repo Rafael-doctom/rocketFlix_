@@ -11,7 +11,7 @@ main{
 
 .container{
     display: flex;
-    padding: 100px 0;
+    padding: 50px 0;
     margin: 0 auto;
     justify-content: center;
 }
@@ -20,7 +20,9 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 30vw;
+    width: 45vw;
+    min-height: 90vh;
+    position: relative;
 }
 
 .logo {
@@ -31,6 +33,13 @@ main{
 
 h1{
     color: var(--title);
+}
+
+.absoluteDiv{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 45vw;
 }
 
 .searchMovie{
@@ -65,7 +74,7 @@ h1{
 }
 
 .describe{
-    width: 30vw;
+    width: 45vw;
     text-align: center;
     font-family: 'Poppins';
     font-style: normal;
@@ -74,4 +83,42 @@ h1{
     line-height: 21px;
     text-align: center;
     color: var(--title);
+}
+
+.movieContent{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    margin: 15px auto;
+    text-align: left;
+}
+
+#imageProfile{
+    width: 171px;
+    height: 243.77px;
+}
+
+.movieTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFCF9;
+}
+
+.describeMovie{
+    width: 423px;
+    height: 274.24px;
+    margin-left: 1rem;
+}
+
+#paragraph{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFCF9;
 }

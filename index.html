@@ -2,6 +2,8 @@
 <html lang="pt-br">
 
 <head>
+    <script src="assets/js/api.js"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,22 +30,42 @@
                 </h1>
 
                 <div id="result">
-                    <!-- RESULTADO -->
-                </div>
-                <div class="searchMovie">
-                    <img class="imageSearch" src="assets/images/logo.svg" alt="imageSearch">
-                    <button>
-                        Encontrar filme
-                    </button>
+                    <div class="movieContent">
+                        <img id="imageProfile" src="https://image.tmdb.org/t/p/w500/5OjBz8BR1yEfmNyC1oOzDdjv8KN.jpg" alt="Imagem erro"/>
+                        <div class="describeMovie">
+                            <h1 id="movieTitle">
+                                Sonic
+                            </h1>
+                            <p id="paragraph">
+                                Depois de se estabelecer em Green Hills, Sonic está pronto para mais liberdade e deixar
+                                sua marca como um herói, e Tom e Maddie concordam em deixá-lo em casa enquanto vão de
+                                férias. Mas, assim que eles se foram, Dr. Robotnik volta, desta vez com um novo
+                                parceiro, Knuckles, em busca de uma esmeralda que tem o poder de construir e destruir
+                                civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma
+                                jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.
 
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <p class="describe">
-                    Clique em "Encontrar filme" que traremos informações
-                    de algum filme para você assistir hoje.
-                </p>
+                <div class="absoluteDiv">
+                    <div class="searchMovie" onclick="myFunction()">
+                        <img class="imageSearch" src="assets/images/logo.svg" alt="imageSearch">
+                        <button>
+                            Encontrar filme
+                        </button>
+    
+                    </div>
+                    <p class="describe">
+                        Clique em "Encontrar filme" que traremos informações
+                        de algum filme para você assistir hoje.
+                    </p>
+                </div>
             </div>
+
         </div>
     </main>
+
 
 
 </body>

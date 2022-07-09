@@ -122,3 +122,236 @@ h1{
     line-height: 24px;
     color: #FFFCF9;
 }
+
+
+/* mediaQuieres */
+@media (min-width:1440px){
+    .container{
+        display: flex;
+        padding: 50px 0;
+        margin: 0 0;
+        justify-content: center;
+
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 45vw;
+        min-height: 65vh;
+        position: relative;
+
+    }
+}
+
+@media (max-width:1024px){
+    .container{
+        display: flex;
+        padding: 50px 0;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+        min-height: 75vh;
+        position: relative;
+        /* justify-content: center; */
+    }
+
+    #paragraph{
+        margin-top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFCF9;
+        width: 35vw;
+    }
+
+    .absoluteDiv{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 90vw;
+
+    }
+
+    .describe{
+        width: 90vw;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--title);
+
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        display: flex;
+        padding: 0px 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+        min-height: 75vh;
+        position: relative;
+        /* justify-content: center; */
+    }
+
+    #paragraph{
+        margin-top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFCF9;
+        width: 35vw;
+    }
+
+    .absoluteDiv{
+        position: absolute;
+        bottom: -7rem;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .describe{
+        width: 90vw;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--title);
+    }
+}
+
+@media (max-width:425px){
+    .container{
+        display: flex;
+        padding: 0px 0;
+        margin: 1rem auto;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 65.24px;
+        height: 40px;    
+        text-align: center;
+    }
+
+    h1{
+        font-size: 0.85rem;
+        display: block;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+        min-height: 75vh;
+        position: relative;
+    }
+
+    .movieContent {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+        margin: 15px auto;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #paragraph {
+        margin-top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFCF9;
+        width: 55vw;
+    }
+
+    .describe{
+        width: 90vw;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--title);
+    }
+
+    .absoluteDiv {
+        position: absolute;
+        bottom:-7rem;
+        text-align: center;
+        width: 90vw;
+    }   
+
+    body{
+        background: var(--background);
+        /* background-color: red; */
+        background-repeat: repeat-y;
+        min-height: 120vh;
+        width: 100%;
+        margin: 0rem 0;
+    }
+
+    #paragraph{
+        margin-top: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #FFFCF9;
+        width: 85vw;
+        text-align: center;
+    }
+
+
+
+    .describe{
+        width: 90vw;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--title);
+    }
+
+    .describeMovie{
+        width: 90vw;
+        height: 274.24px;
+        margin-left: 0;
+    }
+
+}
